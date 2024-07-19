@@ -143,7 +143,7 @@ th {
               <div class="is-size-5 publication-authors">
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup><sup>,</sup><sup style="color:#ed4b82;">2</sup>
-                      <a href="" style="font-weight:normal;">Yancheng Wang</a>,
+                      <a href="https://scholar.google.ca/citations?user=U5QZhDAAAAAJ&hl=en&oi=sra" style="font-weight:normal;">Yancheng Wang</a>,
                   </span>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
@@ -151,20 +151,20 @@ th {
                   </span>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
-                      <a href="" style="color:#008AD7;font-weight:normal;">Zheng Chen</a>,
+                      <a href="https://scholar.google.ca/citations?user=tQVKk5IAAAAJ&hl=en&oi=sra" style="color:#008AD7;font-weight:normal;">Zheng Chen</a>,
                   </span>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
-                      <a href="" style="color:#008AD7;font-weight:normal;">Fan Yang</a>,
+                      <a href="https://scholar.google.ca/citations?user=S2kHIhMAAAAJ&hl=en&oi=sra" style="color:#008AD7;font-weight:normal;">Fan Yang</a>,
                   </span>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
-                      <a href="" style="color:#008AD7;font-weight:normal;">YingXue Zhou</a>,
+                      <a href="https://sites.google.com/umn.edu/zhou0877/home" style="color:#008AD7;font-weight:normal;">YingXue Zhou</a>,
                   </span>
                   <br>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
-                      <a href="" style="color:#008AD7;font-weight:normal;">Eunah Cho</a>,
+                      <a href="https://scholar.google.ca/citations?user=QHOk-eUAAAAJ&hl=en&oi=ao" style="color:#008AD7;font-weight:normal;">Eunah Cho</a>,
                   </span>
                   <span class="author-block">
                       <sup style="color:#ffac33;">1</sup>
@@ -180,7 +180,7 @@ th {
                   </span>
                   <span class="author-block">
                       <sup style="color:#ed4b82;">2</sup>
-                      <a href="" style="color:#008AD7;font-weight:normal;">Yingzhen Yang</a>
+                      <a href="https://search.asu.edu/profile/3520440" style="color:#008AD7;font-weight:normal;">Yingzhen Yang</a>
                   </span>
               </div>
 
@@ -261,14 +261,8 @@ th {
                           While the recommendation system (RS) has advanced significantly through deep learning, current RS approaches
                           usually train and finetune models on task-specific datasets, limiting their generalizability to new recommendation
                           tasks and their ability to leverage external knowledge due to model scale and data size constraints. Thus, we
-                          designed an LLMpowered autonomous recommender agent, RecMind, which is capable of leveraging external knowledge,
-                          utilizing tools with careful planning to provide zero-shot personalized recommendations. We propose a Self-Inspiring
-                          algorithm to improve the planning ability. At each intermediate step, the LLM “self-inspires” to consider all
-                          previously explored states to plan for the next step. This mechanism greatly improves the model’s ability to
-                          comprehend and utilize historical information in planning for recommendation. We evaluate RecMind’s performance in
-                          various recommendation scenarios. Our experiment shows that RecMind outperforms existing zero/few-shot LLM-based recommendation
-                          baseline methods in various tasks and achieves comparable performance to a fully trained recommendation model P5. <br>
-
+                          designed an LLM powered autonomous recommender agent, RecMind, which is capable of leveraging external knowledge,
+                          utilizing tools with careful planning to provide zero-shot personalized recommendations.
                           <ol type="I">
                             <li>
                                 <b>RecMind Framework</b>.
@@ -349,6 +343,19 @@ th {
                         <p style="text-align: left;">
                              Planning helps LLM Agents decompose tasks into smaller, manageable subgoals for handling complex
                              tasks.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <!-- Your image here -->
+                        <img src="static/images/si_algo.png" alt="MY ALT TEXT" />
+                        <p style="text-align: left;">
+                             Comparisons of rating prediction by RecMind-ToT (left) and RecMind-SI (right). After searching for the
+                            product category of the item in Step 2, RecMind-ToT first generates thought 3 (1) to retrieve the rating
+                            of a similar item. After being evaluated by the voting-based evaluator, RecMind-ToT prunes option 3 (1)
+                            and proposes another thought 3 (2) to retrieve the average rating of the item and then makes the prediction
+                            solely based on it. In contrast, although RecMind-SI proposed the same alternative options in step 3, it
+                            takes into account the thought, action, and observation from both options 3 (1) and 3 (2) to generate the
+                            thought for the next step
                         </p>
                     </div>
                 </div>
