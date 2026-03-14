@@ -244,6 +244,11 @@ a:hover {
   text-decoration: none;
 }
 
+.publication-authors .author-name {
+  color: var(--accent-deep);
+  font-weight: 400;
+}
+
 .publication-authors a:hover {
   text-decoration: underline;
 }
