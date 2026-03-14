@@ -21,28 +21,11 @@ Due to company policy, the source code associated with this paper cannot be open
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{wang-etal-2024-recmind,
-  title = "{R}ec{M}ind: Large Language Model Powered Agent For Recommendation",
-  author = "Wang, Yancheng and
-    Jiang, Ziyan and
-    Chen, Zheng and
-    Yang, Fan and
-    Zhou, Yingxue and
-    Cho, Eunah and
-    Fan, Xing and
-    Lu, Yanbin and
-    Huang, Xiaojiang and
-    Yang, Yingzhen",
-  editor = "Duh, Kevin and
-    Gomez, Helena and
-    Bethard, Steven",
-  booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
-  month = jun,
-  year = "2024",
-  address = "Mexico City, Mexico",
-  publisher = "Association for Computational Linguistics",
-  url = "https://aclanthology.org/2024.findings-naacl.271/",
-  doi = "10.18653/v1/2024.findings-naacl.271",
-  pages = "4351--4364"
+@inproceedings{wang2024recmind,
+  title={Recmind: Large language model powered agent for recommendation},
+  author={Wang, Yancheng and Jiang, Ziyan and Chen, Zheng and Yang, Fan and Zhou, Yingxue and Cho, Eunah and Fan, Xing and Lu, Yanbin and Huang, Xiaojiang and Yang, Yingzhen},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2024},
+  pages={4351--4364},
+  year={2024}
 }
 ```
